@@ -1,5 +1,14 @@
-# Sky-Lesson-2 - Playwright Code
-Lesson 2 example code 
+![Logo](https://www.browserstack.com/images/static/header-logo.jpg)
+
+# Manual To Automation @ SKY - Lesson 2 in Playwright <a href="https://nodejs.org/en/"><img src="https://raw.githubusercontent.com/github/explore/60cd2530141f67f07a947fa2d310c482e287e387/topics/playwright/playwright.png" alt="playwright" height="22" /></a>
+
+## Introduction
+
+This code provides the solution to the exam given at the end of the second lesson in the Manual To Automation @ SKY training series. It is a simple NodeJS application that uses Selenium Webdriver to open a web page, open the search hover, and perform a search.
+
+The trick to this solution is in figuring out how to navigate the contents of the iFrame that contains the consent box that appears on the page. Users need to research how to switch to these iFrames in order to find the elements contained within. They also need to figure out how to move back to the main HTML body after that interaction.
+
+---
 
 ## Installation
 
