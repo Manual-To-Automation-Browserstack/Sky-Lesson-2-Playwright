@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This code provides the solution to the exam given at the end of the second lesson in the Manual To Automation @ SKY training series. It is a simple NodeJS application that uses Selenium Webdriver to open a web page, open the search hover, and perform a search.
+This code provides the solution to the exam given at the end of the second lesson in the Manual To Automation @ SKY training series. It is a simple Playwright application that opens a web page, opens the search hover, and performs a search.
 
 The trick to this solution is in figuring out how to navigate the contents of the iFrame that contains the consent box that appears on the page. Users need to research how to switch to these iFrames in order to find the elements contained within. They also need to figure out how to move back to the main HTML body after that interaction.
 
