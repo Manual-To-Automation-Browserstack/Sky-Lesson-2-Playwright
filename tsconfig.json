@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "outDir": "./built",
+      "allowJs": true,
+      "target": "es5"
+    },
+    "include": ["./tests/*", "built/sky-test-local-driver.js", "built/sky-test-bs-parallel.js"]
+  }

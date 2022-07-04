@@ -1,0 +1,20 @@
+{
+  "name": "sky-test",
+  "version": "1.0.0",
+  "description": "Manual 2 Automation - Automation Basics",
+  "main": "index.js",
+  "scripts": {
+    "local-driver": "node tests/sky-test-local-driver.js",
+    "bs-single": "node tests/test.js",
+    "bs-parallel": "node tests/sky-test-bs-parallel.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.22.1",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.22.1"
+  }
+}
